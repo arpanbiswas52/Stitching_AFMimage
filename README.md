@@ -18,13 +18,19 @@ Microscopy is an essential tool in scientific research, enabling the visualizati
 Proposed approach of feature-based bi-channel aided image stitching of microscopy images. Here fig. (a) shows the traditional single-channel stitching of stack of overlapped microscopy images of interest (eg. topographical images) where (b) shows the bi-channel stitching of the topographical images via our proposed approach of using physical information from optimal second imaging channel (Eg. amplitude image). 
 
 ### Description
-This repository includes links, code, scripts, and data to generate the figures in a paper.
+This repository includes links, code, scripts, and data to generate the figures in a paper. 
 
 ### Data
 The samples used in this study correspond to **Pantoea sp. YR343**. The dataset was collected from AFM images, acquired using the DriveAFM system from Nanosurf, as described in [1]. More information on the dataset is provided in the main paper and notebook. The raw dataset is provided in **Data** folder [here](https://github.com/arpanbiswas52/Stitching_AFMimage/tree/main/data). 
 
-### Requirement
-A minimal environment to execute these notebooks can be installed via `pip install -r requirements.txt`
+### Usage
+There are two jupyter notebook files in the **src** folder, [AFM_image_preprocessing.ipynb](https://github.com/arpanbiswas52/Stitching_AFMimage/blob/main/src/AFM_image_preprocessing.ipynb) is used to generate flattened topographical images, amplitude images, and differential images. [AFM_stitching_V2.ipynb](https://github.com/arpanbiswas52/Stitching_AFMimage/blob/main/src/AFM_stitching_V2.ipynb) is used to stitch the images together. To test the code with the AFM images used in the paper, the user needs to:
+- Step 1: Install environment using `pip install -r requirements.txt`.  [requirements.txt](https://github.com/arpanbiswas52/Stitching_AFMimage/blob/main/requirements.txt) contains the necessary libraries for executing the notebook.
+- Step 2: Download the datasets from the **Data** folder [here](https://github.com/arpanbiswas52/Stitching_AFMimage/tree/main/data) and unpack it within the same folder as [AFM_stitching_V2.ipynb](https://github.com/arpanbiswas52/Stitching_AFMimage/blob/main/src/AFM_stitching_V2.ipynb). 
+- Step 3: Run the [AFM_stitching_V2.ipynb](https://github.com/arpanbiswas52/Stitching_AFMimage/blob/main/src/AFM_stitching_V2.ipynb) notebook. 
+- If you are using your own data, you can either preprocess it using [AFM_image_preprocessing.ipynb](https://github.com/arpanbiswas52/Stitching_AFMimage/blob/main/src/AFM_image_preprocessing.ipynb) or prepare the flattened images and second channel images by yourself. Remember to change the input path to your own data path when running [AFM_stitching_V2.ipynb](https://github.com/arpanbiswas52/Stitching_AFMimage/blob/main/src/AFM_stitching_V2.ipynb).
+
+
 
 
 ### Support
