@@ -38,6 +38,6 @@ The authors acknowledge the use of facilities and instrumentation at the UT Knox
 
 
 ### Reference
-[1]Millan-Solsona, R. et al. Analysis of Biofilm Assembly by Large Area Automated AFM. Preprint at https://doi.org/10.21203/rs.3.rs-5537963/v1 (2025).
+[1]Millan-Solsona, R., Brown, S.R., Zhang, L. et al. Analysis of biofilm assembly by large area automated AFM. npj Biofilms Microbiomes 11, 75 (2025). https://doi.org/10.1038/s41522-025-00704-y
 
 
