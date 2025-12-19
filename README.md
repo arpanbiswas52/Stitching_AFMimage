@@ -1,13 +1,10 @@
-[![Paper](https://img.shields.io/badge/paper-arXiv%3A2503.08735-B31B1B.svg)](https://arxiv.org/abs/2503.08735)
-
 
 # A bi-channel Aided Stitching of Atom Force Microscopy Images 
 
 **Huanhuan Zhao**, Ruben Millan-Solsona, Marti Checa, Spenser R. Brown, Jennifer L. Morrell-Falvey, Liam Collins, **Arpan Biswas** 
 
-
  	
-https://doi.org/10.48550/arXiv.2503.08735
+Zhao, H., Millan-Solsona, R., Checa, M. et al. A bi-channel aided stitching of atomic force microscopy images. Sci Rep 15, 41897 (2025). https://doi.org/10.1038/s41598-025-25855-y
 
 
 ### Abstract
